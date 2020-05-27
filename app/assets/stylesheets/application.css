@@ -13,11 +13,13 @@
  *= require_tree .
  *= require_self
  */
+.text {
+	color: green;
+}
 
- .box {
- 	padding-bottom: : 10px;
- }
-
- .text {
- 	font-size: 13px;
- }
+th {
+	display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
